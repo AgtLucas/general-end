@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="container">
+
+    <!-- {% include header.html %} -->
+
+    <div class="mp-pusher" id="mp-pusher">
+
+				<!-- mp-menu -->
+				<nav id="mp-menu" class="mp-menu">
+					<div class="mp-level">
+						<h2>All Categories</h2>
+            <a class="mp-back visible-responsive" href="#">back</a>
+						<ul>
+              <li class="icon icon-arrow-left">
+                <a href="#">Front-end</a>
+                <div class="mp-level">
+									<h2>Front-end</h2>
+                  <a class="mp-back" href="#">back</a>
+									<ul>
+										<li><a href="#">Languages</a></li>
+										<li><a href="#">Framework</a></li>
+										<li><a href="#">Articles</a></li>
+									</ul>
+								</div>
+              </li>
+              <li class="icon icon-arrow-left">
+                <a href="#">Back-end</a>
+                <div class="mp-level">
+                  <h2>Back-end</h2>
+                  <a class="mp-back" href="#">back</a>
+                  <ul>
+                    <li><a href="#">Languages</a></li>
+                    <li><a href="#">Framework</a></li>
+                    <li><a href="#">Articles</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="icon icon-arrow-left">
+                <a href="#">Design</a>
+                <div class="mp-level">
+                  <h2>Design</h2>
+                  <a class="mp-back" href="#">back</a>
+                  <ul>
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Fonts</a></li>
+                    <li><a href="#">Icons</a></li>
+                    <li><a href="#">Patterns</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contributing</a></li>
+							<li><a href="#">Credits</a></li>
+						</ul>
+
+					</div>
+				</nav>
+				<!-- /mp-menu -->
+
+				<div class="scroller"><!-- this is for emulating position fixed of the nav -->
+					<div class="scroller-inner">
+            <nav>
+              <a id="menu-toggle" href="#" class="button">
+                <span class="sr">Toggle Navigation</span>
+                <span class="menu-bar bar1"></span>
+                <span class="menu-bar bar2"></span>
+                <span class="menu-bar bar3"></span>
+              </a>
+            </nav>
+            {{ content }}
+					</div><!-- /scroller-inner -->
+				</div><!-- /scroller -->
+
+			</div><!-- /pusher -->
+
+
+    <!-- {% include footer.html %} -->
+    <script src="{{ "/script/classie.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/script/menu.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/script/app.js" | prepend: site.baseurl }}"></script>
+  </body>
+
+</html>

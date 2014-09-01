@@ -1,0 +1,24 @@
+html, body {
+  background-color: $color_primary;
+  font-weight: 300;
+  font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+a, a:link, a:hover, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  text-align: center;
+  color: white;
+  margin-top: 15%;
+
+  label {
+    font-size: 1.4em;
+  }
+}
+
+.img-logo {
+  margin-top: 50px;
+}
