@@ -1,5 +1,4 @@
 html, body {
-  background-color: $color_primary;
   font-weight: 300;
   font-family: 'Lato', Calibri, Arial, sans-serif;
 }
@@ -21,4 +20,20 @@ a, a:link, a:hover, a:visited {
 
 .img-logo {
   margin-top: 50px;
+}
+
+.body-1 {
+    background-color: $color_primary;
+}
+
+.body-2 {
+    background-color: #EDC951;
+}
+
+.body-3 {
+    background-color: #6C5B7B;
+}
+
+.body-4 {
+    background-color: #8EBE94;
 }
