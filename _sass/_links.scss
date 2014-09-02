@@ -1,0 +1,27 @@
+.links {
+  color: #fff;
+  text-align: center;
+}
+
+.object-link {
+  width: 300px;
+  text-align: left;
+  background: #424254;
+  margin: 0 auto;
+  padding-top: 10px;
+
+
+  a {
+    font-size: 1.54em;
+    margin: 0 10px 0 10px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  p {
+    background: #64908A;
+    color: #fff;
+    padding: 10px;
+  }
+}
