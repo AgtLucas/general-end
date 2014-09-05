@@ -184,7 +184,7 @@ html, body, .container, .scroller {
 .mp-menu h2 {
 	margin: 0;
 	padding: 1em;
-	color: rgba(0,0,0,0.4);
+	color: #fff;
 	text-shadow: 0 0 1px rgba(0,0,0,0.1);
 	font-weight: 300;
 	font-size: 2em;
@@ -239,7 +239,7 @@ html, body, .container, .scroller {
 	position: absolute;
 	left: 10px;
 	z-index: -1;
-	color: rgba(0,0,0,0.2);
+	color: #fff;
 	line-height: 3.5;
 }
 
@@ -286,7 +286,7 @@ html, body, .container, .scroller {
 	content: "\e037";
 	right: 10px;
 	font-size: 1.3em;
-	color: rgba(0,0,0,0.3);
+	color: #fff;
 }
 
 .mp-menu .mp-level.mp-level-overlay > .mp-back,
