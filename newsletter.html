@@ -2,22 +2,9 @@
 layout: default
 color: body-1
 permalink: /newsletter/
+type: newsletter
 ---
 
-<!-- Begin MailChimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background: #ff5a45;; clear:left; font:14px Helvetica,Arial,sans-serif;  }
-	#mc_embed_signup h2 {color: #fff;}
-	#mc_embed_signup form {background-color: #ff5a45; width: 369px; margin: 0 auto;}
-	#mc_embed_signup form label {color: #fff;}
-	#mc_embed_signup .asterisk {color: #fff;}
-	#mc_embed_signup .indicates-required {color: #fff;}
-	#mc_embed_signup #mce-success-response {color: #fff;}
-	#mc_embed_signup .button {background-color: #777;}
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
 <div id="mc_embed_signup">
 <form action="//github.us9.list-manage.com/subscribe/post?u=ead4ea35189c0af141c7333d4&amp;id=3f7a9fa082" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 	<h2>Subscribe to our mailing list</h2>
@@ -35,6 +22,13 @@ permalink: /newsletter/
 	<label for="mce-LNAME">Last Name </label>
 	<input type="text" value="" name="LNAME" class="" id="mce-LNAME">
 </div>
+<div class="mc-field-group input-group">
+    <strong>Type of information you would like to receive </strong>
+    <ul><li><input type="checkbox" value="1" name="group[11177][1]" id="mce-group[11177]-11177-0"><label for="mce-group[11177]-11177-0">Front-end</label></li>
+<li><input type="checkbox" value="2" name="group[11177][2]" id="mce-group[11177]-11177-1"><label for="mce-group[11177]-11177-1">Back-end</label></li>
+<li><input type="checkbox" value="4" name="group[11177][4]" id="mce-group[11177]-11177-2"><label for="mce-group[11177]-11177-2">Design/UX</label></li>
+</ul>
+</div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
 		<div class="response" id="mce-success-response" style="display:none"></div>
@@ -43,5 +37,4 @@ permalink: /newsletter/
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->

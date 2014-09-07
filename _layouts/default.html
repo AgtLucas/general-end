@@ -82,9 +82,15 @@
     </div>  <!-- /pusher -->
 
     <!-- {% include footer.html %} -->
-    <script src="{{ "/script/classie.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/script/menu.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/script/app.js" | prepend: site.baseurl }}"></script>
+    <script type='text/javascript' src="{{ "/script/classie.js" | prepend: site.baseurl }}"></script>
+    <script type='text/javascript' src="{{ "/script/menu.js" | prepend: site.baseurl }}"></script>
+    <script type='text/javascript' src="{{ "/script/app.js" | prepend: site.baseurl }}"></script>
+    {% if page.type == "newsletter" %}
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript' src="{{ "/script/newsletter.js" | prepend: site.baseurl }}"></script>
+    {% endif %}
+
+
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
